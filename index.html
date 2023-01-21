@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Bài tập js buổi 1</h1>
+
+
+    <script>
+        //  Bài 1: Tính tiền lương nhân viên
+        // input: soNgaylam: number, luong1Ngay: number
+        var soNgaylam = 15;
+        var luong1Ngay = 100000;
+        // output: soLuong: number
+        var tienLuong = 0;
+        // process: xử lý
+        tienLuong = soNgaylam * luong1Ngay;
+        // in gí trị output ra MH
+        console.log('tiền lương:', tienLuong)
+
+
+        // Bài 2: Tính giá trị trung bình
+        // input: diemToan: number, diemLy: number, diemHoa: number, diemSinh: number, diemVan: number
+        var diemToan = 10;
+        var diemLy = 8;
+        var diemHoa = 9;
+        var diemSinh = 8;
+        var diemVan = 9;
+        // output: soLuong: number
+        var trungBinh = 0;
+        // process: xử lý
+        var trungBinh = (diemToan + diemLy + diemHoa + diemSinh + diemVan) / 5;
+        // in gí trị output ra MH
+        console.log('điểm trung bình:', trungBinh)
+
+        // Bài 3: Quy đổi tiền
+        // input: giaUSD: number, soTienUSD: number
+        var giaUSD = 23500;
+        var soTienUSD = 2;
+        // output: soTienVND: number
+        var soTienVND = 0;
+        // process: xử lý
+        soTienVND = giaUSD * soTienUSD
+        // in giá trị output ra MH
+        console.log('số tiền sau qui đổi:', soTienVND)
+
+
+        // Bài 4: Tính diện tích, chu vi hình chữ nhật
+        // input: chieuDai: number, chieuRong: number
+        var chieuDai = 7;
+        var chieuRong = 5;
+        // output:
+        var chuVi = 0;
+        var dienTich = 0;
+        // process: xử lý
+        chuVi = (chieuDai + chieuRong) * 2;
+        dienTich = chieuDai * chieuRong
+        // in giá trị output ra MH
+        console.log('chu vi hình chữ nhật:', chuVi);
+        console.log('diện tích hình chữ nhật:', dienTich);
+
+        // Bài 4: Tính tổng 2 ký số 
+        // input: so: number
+        var so = 12;
+        // output:
+        var tongKySo = 0;
+        // process: xử lý
+        var soHangChuc = Math.floor(so / 10)
+        var SoHangDonVi = Math.floor(so % 10)
+        tongKySo = soHangChuc + SoHangDonVi
+        // in giá trị output ra MH
+        console.log('số hàng chục:', soHangChuc);
+        console.log('số hàng đơn vị:', SoHangDonVi);
+        console.log('tổng ký số:', tongKySo);
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
